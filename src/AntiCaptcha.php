@@ -160,7 +160,7 @@ class AntiCaptcha
                     ->getBody()
                     ->getContents();
 
-                return json_decode($_content, 1);
+                return json_decode($_content);
             }
 
             return false;
