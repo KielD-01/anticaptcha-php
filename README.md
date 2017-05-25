@@ -8,7 +8,7 @@ You can install this package via `composer`:
 For now, this package is on testing
 
 ## Example
-`
+```
 <?php
 namespace AntiCaptcha;
 use AntiCaptcha\ImageToText;
