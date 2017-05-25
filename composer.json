@@ -1,0 +1,18 @@
+{
+    "name": "kield-01/anticaptcha-composer",
+    "description": "Captcha solver, provided by anti-captcha.com and remade by me for composer users",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "roman.kozin",
+            "email": "romanko95.rk@gmail.com"
+        }
+    ],
+    "psr-4" : {
+        "AntiCaptcha\\" : "src/"
+    },
+    "require": {
+        "fabpot/goutte": "^3.2"
+    }
+}
