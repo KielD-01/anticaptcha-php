@@ -8,8 +8,11 @@ You can install this package via `composer`:
 For now, this package is on testing
 
 ## Example
+`
+<?php
+namespace AntiCaptcha;
+use AntiCaptcha\ImageToText;
 
-```
         $_img_to_text = new ImageToText();
         $_img_to_text->setKey('anticaptcha_key');
         $_img_to_text->setFile(WWW_ROOT . 'capcha.jpg');
@@ -28,4 +31,4 @@ For now, this package is on testing
 
         $_result = $_img_to_text->getTaskSolution();
 
-        dump("TaskID : {$_task} : {$_result}");```
+        dump("TaskID : {$_task} : {$_result}");
